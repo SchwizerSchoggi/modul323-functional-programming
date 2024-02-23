@@ -3,6 +3,7 @@ const PI = 3.141592653589793;
 const person = {
   firstName: "Sebastian",
   age: 29,
+  job: 'Lead Engineer'
 };
 console.log(person);
 

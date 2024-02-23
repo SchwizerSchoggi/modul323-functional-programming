@@ -9,11 +9,11 @@ const studentGrades = [
 ];
 
 const getGradeLetter = (student) => {
-  if (student.grade >= 90) return "A";
-  if (student.grade >= 80) return "B";
-  if (student.grade >= 70) return "C";
-  if (student.grade >= 60) return "D";
-  return "F";
+  if (student.grade >= 90) return "a";
+  if (student.grade >= 80) return "b";
+  if (student.grade >= 70) return "c";
+  if (student.grade >= 60) return "d";
+  return "f";
 };
 const getPraise = (student) => {
   if (student.grade >= 90) return "Excellent Job";

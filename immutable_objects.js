@@ -19,5 +19,5 @@ const person3 = {
 console.log(person3);
 
 const { age, ...person4 } = person3;
-console.log(age)
-console.log(person4)
+console.log(age);
+console.log(person4);

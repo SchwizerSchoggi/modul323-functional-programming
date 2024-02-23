@@ -34,7 +34,6 @@ const rateStudent = (gradeLetter) => {
 studentFeedback = studentGrades.map(rateStudent(getGradeLetter)(getPraise));
 console.log(studentFeedback);
 
-
 const names = ["Peter", "Hans", "Manuel"];
 
 const greeting = (greet) => {
@@ -50,7 +49,6 @@ const goodEvening = greetingR("Good Evening");
 console.log(names.map(goodMorning));
 console.log(names.map(goodEvening));
 console.log(goodMorning("Michael"));
-
 
 const sentence = "This is a sentence with some words";
 const countWords = R.compose(R.length, R.split);
